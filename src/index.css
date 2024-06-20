@@ -6,4 +6,15 @@
 
 body{
     font-family: "Poppins", "sans-serif";
+    background-color: black;
+    color: white;
+}
+
+body::selection{
+    background-color: white;
+    color:yellow;
+}
+
+html::-webkit-scrollbar{
+    display: none;
 }

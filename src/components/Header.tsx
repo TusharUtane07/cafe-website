@@ -82,7 +82,7 @@ const Header = () => {
 								to="/book-table"
 								onClick={() => setNav(!nav)}
 								className={({ isActive }) =>
-									isActive ? " font-bold bg-orange-400 px-4 py-2 rounded-md" : "bg-orange-400 px-4 py-2 rounded-md"
+									isActive ? " font-bold bg-orange-400 px-4 py-2 rounded-md text-black" : "bg-orange-400 text-black px-4 py-2 rounded-md"
 								}>
 								Reserve Table
 							</NavLink>
@@ -91,7 +91,7 @@ const Header = () => {
 				</div>
 			</div>
 			{/* Desktop View */}
-			<div className="hidden lg:flex h-16 border-b-2 border-black">
+			<div className="hidden lg:flex h-20 border-b-2 border-black">
 				<div className="w-full flex items-center justify-between">
 					<div className="text-4xl  ml-7 font-bold">Three Beans</div>
 					<div className="flex items-center text-2xl mr-5 space-x-7 font-semiboldbold">						
@@ -140,8 +140,8 @@ const Header = () => {
 								to="/book-table"
 								className={({ isActive }) =>
 									isActive
-										? " font-bold flex items-center bg-orange-400 px-4 py-2 rounded-md"
-										: "flex items-center bg-orange-400 px-4 py-2 rounded-md"
+										? " font-bold flex items-center bg-orange-400 text-black px-4 py-2 rounded-md"
+										: "flex items-center bg-orange-400 text-black px-4 py-2 rounded-md"
 								}>
 								Reserve Table
 							</NavLink>
