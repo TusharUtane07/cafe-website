@@ -8,9 +8,9 @@ const Contact = () => {
 			<h1 className="text-center text-3xl font-semibold md:text-4xl md:my-6 lg:text-5xl lg:my-12">
 				Visit Us
 			</h1>
-			<div className="relative w-full h-96 mt-3">
+			<div className="relative w-full h-96  mt-3">
 				<iframe
-					className="absolute top-0 left-0 w-full h-full"
+					className="absolute top-0 left-0  w-full h-full"
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.1707988224643!2d79.0608617091272!3d21.145600080451953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c05f97510f2d%3A0x7c496feeca95b250!2sThree%20Beans%20Coffee%20Bar%2C%20Dharampeth!5e0!3m2!1sen!2sin!4v1718894180176!5m2!1sen!2sin"
 					aria-hidden="false"
 					tabIndex={0}></iframe>

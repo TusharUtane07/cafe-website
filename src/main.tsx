@@ -7,6 +7,7 @@ import Menu from './pages/Menu.tsx'
 import About from './pages/About.tsx'
 import Contact from './pages/Contact.tsx'
 import BookTable from './pages/BookTable.tsx'
+import Gallery from './pages/Gallery.tsx'
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "book-table",
         element: <BookTable/>
+      },
+      {
+        path: "gallery",
+        element: <Gallery/>
       },
     ]
   }

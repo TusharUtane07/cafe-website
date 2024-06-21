@@ -25,7 +25,7 @@ const Header = () => {
 				<div
 					className={
 						nav
-							? "fixed top-0 left-0 w-screen h-screen bg-white z-10 duration-700"
+							? "fixed top-0 left-0 w-screen h-screen bg-white text-black z-10 duration-700"
 							: "fixed top-0 left-[-100%] w-[100px] h-screen bg-white z-10 duration-700"
 					}>
 					<RxCross1
@@ -55,6 +55,16 @@ const Header = () => {
 									isActive ? " font-bold" : ""
 								}>
 								Menu
+							</NavLink>
+						</div>
+						<div className="mt-10 md:mt-14">
+							<NavLink
+								to="/gallery"
+								onClick={() => setNav(!nav)}
+								className={({ isActive }) =>
+									isActive ? " font-bold" : ""
+								}>
+								Gallery
 							</NavLink>
 						</div>
 						<div className="mt-10 md:mt-14">
@@ -111,6 +121,15 @@ const Header = () => {
 									isActive ? " font-bold" : ""
 								}>
 								Menu
+							</NavLink>
+						</div>
+						<div>
+							<NavLink
+								to="/gallery"
+								className={({ isActive }) =>
+									isActive ? " font-bold" : ""
+								}>
+								Gallery
 							</NavLink>
 						</div>
 						<div className="">
