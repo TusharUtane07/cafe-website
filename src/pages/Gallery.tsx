@@ -6,8 +6,9 @@ import gallery5 from "../assets/gallery5.jpg";
 import gallery6 from "../assets/gallery6.jpg";
 import gallery7 from "../assets/gallery7.jpg";
 import gallery8 from "../assets/gallery1.jpg";
+import { FC } from "react";
 
-const Gallery = () => {
+const Gallery:FC = () => {
 	return (
 		<div className="flex items-center justify-center">
 			<div className="grid m-5 gap-y-5 md:grid-cols-2 md:gap-x-5 lg:grid-cols-3">
